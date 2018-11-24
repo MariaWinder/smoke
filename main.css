@@ -28,6 +28,10 @@ h3{
   margin-top: 0;
 }
 
+body{
+  font-family: 'Arvo', serif;
+}
+
 .indexbody{
   background-image: url(images/lasmoke2.jpg);
   height: 100%;
