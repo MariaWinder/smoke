@@ -1,0 +1,38 @@
+header{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+nav{
+    list-style: none;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+  font-size: 60pt;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h3{
+  font-size: 13pt;
+  margin-top: 0;
+}
+
+.indexbody{
+  background-image: url(images/lasmoke2.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px 1500px;
+  background-color: gray;
+}
