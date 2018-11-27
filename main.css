@@ -1,4 +1,4 @@
-header{
+.header{
     text-decoration: none;
     text-align: center;
     display: block;
@@ -21,18 +21,17 @@ header{
   padding:4px;
 }
 
-.firenav{
-    color: white;
-}
-
 ul{
     list-style-type: none;
 }
 
-
 a{
     color: black;
     text-decoration: none;
+}
+
+.firelink{
+  color: white;
 }
 
 h1{
@@ -129,12 +128,54 @@ img{
    padding:4px;
 }
 
+.colfire{
+   margin: 5px;
+   margin-left: 20px;
+   display:inline-block;
+   vertical-align: top;
+   text-align: center;
+   width: 45%;
+   padding:4px;
+   z-index: 1;
+}
+
+.colfire img{
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.colfire img:hover{
+  filter: grayscale(0);
+  transform: scale(1,1);
+}
+
 .containerredsky {
   position: relative;
-  width: 94%;
-  margin-left: 22px;
+  width: 93.75%;
+  margin-left: 24px;
+  padding-top: 45px;
 }
 
 .containerredsky:hover .overlay {
   height: 100%;
+}
+
+.campfire{
+  position: relative;
+  width: 93.5%;
+  margin-left: 25px;
+}
+
+.campfire:hover .overlay {
+  height: 100%;
+}
+
+.campfire img{
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.campfire img:hover{
+  filter: grayscale(0);
+  transform: scale(1,1);
 }
