@@ -73,6 +73,14 @@ img{
   background-color: gray;
 }
 
+.videobody{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px 1500px;
+  background-color: black;
+}
+
 .firebody{
   background-image: url(images/forestsmokefire.gif);
   height: 100%;
@@ -103,7 +111,7 @@ img{
 }
 
 .healthbody{
-  background-image: url(images/gravel.png);
+  background-image: url(images/squairy_light.png);
 }
 
 .blueskybody{
@@ -171,6 +179,17 @@ img{
    text-align: center;
    width: 45%;
    padding:4px;
+}
+
+.healthcol{
+  margin: 9px;
+  margin-left: 20px;
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 45%;
+  margin:9px;
+  margin-bottom: 40px;
 }
 
 .colfire{
