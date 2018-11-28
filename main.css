@@ -64,6 +64,15 @@ img{
   background-color: gray;
 }
 
+.redskybody{
+  background-image: url(images/redsky1.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1500px 1500px;
+  background-color: gray;
+}
+
 .firebody{
   background-image: url(images/forestsmokefire.gif);
   height: 100%;
@@ -155,6 +164,8 @@ img{
 .col{
    margin: 5px;
    margin-left: 20px;
+   margin-top: 70px;
+   margin-bottom: 80px;
    display:inline-block;
    vertical-align: top;
    text-align: center;
