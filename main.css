@@ -195,3 +195,10 @@ img{
   filter: grayscale(0);
   transform: scale(1,1);
 }
+
+.damvideo{
+  margin-top: auto;
+  text-align: center;
+  margin-left: 300px;
+
+}
